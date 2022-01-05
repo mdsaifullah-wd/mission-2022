@@ -5,8 +5,10 @@ body {
   font-family: "Poppins", sans-serif;
   color: #3e3e3e;
 }
-h1 {
-  color: #333333;
+h1,
+h2,
+h3 {
+  color: #161b21;
 }
 .container {
   max-width: 1080px;
@@ -30,11 +32,12 @@ h1 {
 .btn:hover {
   background-color: #161853;
 }
-
-/* Header Section */
-#header {
+#header,
+#my-mission {
   margin-bottom: 100px;
 }
+
+/* Header Section */
 #header .header-content {
   display: flex;
 }
@@ -59,4 +62,36 @@ h1 {
   font-size: 60px;
   font-weight: 400;
   margin: 0;
+}
+
+/* My Mission Section */
+
+#my-mission .mission-content h2 {
+  text-align: center;
+  font-size: 48px;
+}
+#my-mission .mission-content .missions {
+  display: flex;
+  justify-content: space-evenly;
+}
+#my-mission .mission-content .missions .card {
+  width: 25%;
+  border-radius: 15px;
+  padding: 45px 32px;
+}
+#my-mission .mission-content .missions .card img {
+  width: 140px;
+  height: 140px;
+}
+#my-mission .mission-content .missions .card h3 {
+  font-size: 24px;
+}
+#my-mission .mission-content .missions .mission {
+  background: rgba(79, 157, 166, 0.1);
+}
+#my-mission .mission-content .missions .vission {
+  background: rgba(255, 89, 89, 0.1);
+}
+#my-mission .mission-content .missions .goals {
+  background: rgba(25, 190, 10, 0.1);
 }
