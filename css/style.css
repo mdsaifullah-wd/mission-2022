@@ -1,9 +1,9 @@
 /* General Syles */
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Poppins", sans-serif;
   color: #3e3e3e;
+  margin: 0;
+  padding: 0;
 }
 h1,
 h2,
@@ -12,17 +12,16 @@ h3 {
 }
 .container {
   max-width: 1080px;
-  padding: 0 3rem;
   margin: 0 auto;
+  padding: 0 3rem;
 }
-.different-color {
+.highlight {
   color: #ec255a;
 }
 .btn {
   display: inline-block;
   text-decoration: none;
   padding: 10px 40px;
-  border: none;
   background-color: #292c6d;
   color: #ffffff;
   border-radius: 5px;
@@ -32,8 +31,7 @@ h3 {
 .btn:hover {
   background-color: #161853;
 }
-#header,
-#my-mission {
+.margin-bottom {
   margin-bottom: 100px;
 }
 
@@ -49,12 +47,12 @@ h3 {
   margin: 20px 0;
 }
 .similar-div img {
-  margin: 0 10%;
   width: 80%;
+  margin: 0 10%;
 }
 .similar-div .main-title {
   margin-top: 8rem;
-  padding: 0 0 0 15px;
+  padding-left: 15px;
   border-left: 5px solid #292c6d;
 }
 .similar-div .main-title h1 {
@@ -77,8 +75,8 @@ h3 {
 }
 #my-mission .mission-content .missions .card {
   width: 25%;
-  border-radius: 15px;
   padding: 45px 32px;
+  border-radius: 15px;
 }
 #my-mission .mission-content .missions .card img {
   width: 140px;
@@ -122,11 +120,8 @@ h3 {
   font-size: 18px;
   margin-bottom: 30px;
 }
-#documentations .documentation1,
-#documentations .documentation2 {
-  padding-bottom: 100px;
-}
 
+/* Footer Section */
 #footer {
   background-color: #0b0d17;
   text-align: center;
