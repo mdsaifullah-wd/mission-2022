@@ -69,10 +69,11 @@ h3 {
 #my-mission .mission-content h2 {
   text-align: center;
   font-size: 48px;
+  color: #0a0b31;
 }
 #my-mission .mission-content .missions {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 #my-mission .mission-content .missions .card {
   width: 25%;
