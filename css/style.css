@@ -130,11 +130,14 @@ h3 {
 }
 #testimonial .testimonial-wrapper .testimonial-item {
   width: 30%;
+  border-radius: 20px 0;
+  box-shadow: 10px 10px 30px grey;
 }
 #testimonial .testimonial-wrapper .testimonial-item .author {
   display: flex;
   align-items: center;
-  margin: 0 0 20px 10%;
+  margin: 0 0 0 10%;
+  padding: 15px;
 }
 #testimonial .testimonial-wrapper .testimonial-item .author .author-photo {
   width: 50px;
