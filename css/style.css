@@ -118,6 +118,30 @@ h3 {
   font-size: 18px;
   margin-bottom: 30px;
 }
+#documentations .documentation1,
+#documentations .documentation2 {
+  position: relative;
+}
+#documentations .documentation1 .bg-image,
+#documentations .documentation2 .bg-image {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  z-index: -1;
+}
+#documentations .documentation1 .bg-image img,
+#documentations .documentation2 .bg-image img {
+  width: 100%;
+}
+#documentations .documentation1 .bg-image {
+  top: 30px;
+  left: 20px;
+  bottom: 0;
+}
+#documentations .documentation2 .bg-image {
+  right: 20px;
+  bottom: -100px;
+}
 
 /* Testimonial Section */
 #testimonial .testimonial-body {
