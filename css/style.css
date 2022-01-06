@@ -61,14 +61,14 @@ h3 {
   font-weight: 400;
   margin: 0;
 }
-
-/* My Mission Section */
-
-#my-mission .mission-content h2 {
+.medium-heading {
   text-align: center;
   font-size: 48px;
   color: #0a0b31;
 }
+
+/* My Mission Section */
+
 #my-mission .mission-content .missions {
   display: flex;
   justify-content: space-between;
@@ -119,6 +119,60 @@ h3 {
 #documentations .documentation-body .larger-div p {
   font-size: 18px;
   margin-bottom: 30px;
+}
+
+/* Testimonial Section */
+#testimonial {
+}
+#testimonial .testimonial-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#testimonial .testimonial-wrapper .testimonial-item {
+  width: 30%;
+}
+#testimonial .testimonial-wrapper .testimonial-item .author {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px 10%;
+}
+#testimonial .testimonial-wrapper .testimonial-item .author .author-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#testimonial .testimonial-wrapper .testimonial-item .author .author-photo img {
+  width: 100%;
+  height: 100%; /* Images is not sqare */
+  border-radius: 50%;
+}
+#testimonial .testimonial-wrapper .testimonial-item .author .author-info {
+  margin-left: 20px;
+}
+#testimonial .testimonial-wrapper .testimonial-item .author .author-info h4 {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+}
+#testimonial .testimonial-wrapper .testimonial-item .author .author-info p {
+  margin: 0;
+  font-size: 12px;
+}
+#testimonial .testimonial-wrapper .testimonial-item .text {
+  color: #eee;
+  border-radius: 20px 0;
+  padding: 15px;
+}
+#testimonial .testimonial-wrapper .testimonial-item .text p {
+  margin: 0;
+  font-size: 14px;
+  text-align: justify;
+}
+#testimonial .testimonial-wrapper .item-1 .text,
+#testimonial .testimonial-wrapper .item-3 .text {
+  background-color: #292c6d;
+}
+#testimonial .testimonial-wrapper .item-2 .text {
+  background-color: #ec275c;
 }
 
 /* Footer Section */
